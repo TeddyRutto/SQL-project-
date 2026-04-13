@@ -37,6 +37,7 @@ When data is no longer needed or entered in error, we use DELETE to remove it. T
 
 **SQL FILTERING WITH WHERE.**
 WHERE is mainly used to filter data. It prevents information overload by allowing us to see only the rows that matter. By using different operators, we can get very specific:
+
 = (Equality): Finding students in a specific city (WHERE city = 'Nairobi').
 
  (Greater Than): Identifying top performers (WHERE marks > 80).
@@ -50,10 +51,12 @@ LIKE (Search): Finding partial matches using wildcards, such as finding all stud
 DIFFERENT OPERATORS IN USE
 
 **TRANSFORMING DATA WITH CASE WHEN**
+
 CASE WHEN is SQL'S way of asking 'if this, then that'. Used in making decisions. In the case of our assignment, we used this to turn numerical marks to performance level.
 <img width="1000" height="298" alt="image" src="https://github.com/user-attachments/assets/59a017bf-5c60-4c4d-9060-7a3f4986952f" />
 
 This transformation is vital because it turns a technical table into a readable report that a teacher or principal can understand at a glance. It allows the database to do the analysis for you, moving beyond just storing data to actually interpreting it.
 
 **CONCLUSION**
+
 My journey with SQL was a mix of technical hurdles. While I initially found the placement of the asterisk and the logic of the LIKE function to be challenging, overcoming these syntax hurdles was rewarding. Ultimately, I was impressed by how effortlessly SQL handles data transformation and analysis, turning complex datasets into clear, actionable insights.
