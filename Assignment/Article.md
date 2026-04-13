@@ -38,9 +38,13 @@ When data is no longer needed or entered in error, we use DELETE to remove it. T
 **SQL FILTERING WITH WHERE.**
 WHERE is mainly used to filter data. It prevents information overload by allowing us to see only the rows that matter. By using different operators, we can get very specific:
 = (Equality): Finding students in a specific city (WHERE city = 'Nairobi').
-> (Greater Than): Identifying top performers (WHERE marks > 80).
+
+ (Greater Than): Identifying top performers (WHERE marks > 80).
+
 BETWEEN (Range): Finding data within a specific window, such as an exam period (WHERE exam_date BETWEEN '2024-03-01' AND '2024-03-31').
+
 IN (Membership): Selecting from a list of options without writing multiple "OR" statements (WHERE city IN ('Mombasa', 'Kisumu')).
+
 LIKE (Search): Finding partial matches using wildcards, such as finding all students name start with A or E(WHERE student_name LIKE 'A'%' OR 'E%').
 <img width="1000" height="563" alt="image" src="https://github.com/user-attachments/assets/a1609d06-1aa6-4082-a9d2-b5ea559ea19b" />
 DIFFERENT OPERATORS IN USE
